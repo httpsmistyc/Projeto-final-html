@@ -1,0 +1,195 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Estilos do Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0781b1;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Estilos do Título */
+h1 {
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Estilos da Linha Separadora */
+hr {
+    border: 0;
+    border-top: 4px solid #ccc;
+}
+
+/* Estilos da Navegação */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block; /* Mudança para exibir os itens na horizontal */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+
+/* Estilos para a Seção de Conteúdo */
+.content {
+    display: flex;
+    align-items: flex-start; /* Alinhar itens ao topo */
+    justify-content: space-between; /* Distribuir o espaço entre os itens */
+}
+/* Estilos para as Imagens */
+.images {
+    /* flex: 0 0 auto; As imagens não irão crescer, mas permanecerão no tamanho original */
+
+    display: block;
+    width: 30%; /* Garantir que as imagens ocupem todo o espaço disponível */
+    margin-bottom: 5%; /* Espaçamento entre as imagens */
+    margin-left: 22%;
+}
+#primeira{
+    margin-top: 10%;
+}
+
+Sinopse e imagens
+/* Estilos para o Texto */
+.text {
+    /* flex: 1; O texto irá expandir para ocupar todo o espaço restante */
+    margin-left: 1px; /* Espaçamento reduzido entre as imagens e o texto */
+    font-family: 'Times New Roman', Times, serif;
+}
+.text article {
+    max-width: 1000px; /* Limitar a largura do texto para facilitar a leitura */
+    font-family: 'Times New Roman', Times, serif;
+}
+.text {
+    flex: 2;
+}
+/*--*/
+
+.dp-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.images {
+    flex: 1;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.dp-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    width: 50%;
+}
+.images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 45%;
+    font-size: 20px;
+}
+.text h2 {
+    color: #333;
+    font-family: 'Times New Roman', Times, serif
+}
+.text p {
+    color: #666;
+    font-family: 'Times New Roman', Times, serif
+} 
+
+
+
+Rotas
+.text ul {
+    list-style-type: none;
+    padding: 0;
+}
+.text ul li {
+    padding: 5px 0;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.image-container img {
+    width: 30%;
+    height: auto;
+    border: #4bb2d8 3px solid;
+}
+
+
+
+Personagens
+.personagem {
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+.particao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adiciona espaço acima do nome do personagem */
+}
+.imagens {
+    width: 35%;
+ /* Adiciona espaço à direita da imagem */
+}
+.imagens img {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    width: 45%;
+    margin-left: 1%; /* Adiciona espaço à esquerda do texto */
+    font-family: 'Times New Roman', Times, serif;
+    color: #666;
+    font-size: 20px;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
